@@ -20,3 +20,6 @@ set ChromeDir=C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data
 :: delete history files and cache
 del /q /s /f "%ChromeDir%\default\History*.*"
 del /q /s /f "%ChromeDir%\default\Cache\*.*"
+
+:: alternatively, uncomment and link the chrome-clean.ps1 powershell script for a deeper clean
+:: PowerShell -NoProfile -ExecutionPolicy Bypass -File 'C:\server\location\the-script.ps1'
