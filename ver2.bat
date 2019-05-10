@@ -22,4 +22,5 @@ del /q /s /f "%ChromeDir%\default\History*.*"
 del /q /s /f "%ChromeDir%\default\Cache\*.*"
 
 :: alternatively, uncomment and link the chrome-clean.ps1 powershell script for a deeper clean
-:: PowerShell -NoProfile -ExecutionPolicy Bypass -File 'C:\server\location\the-script.ps1'
+:: swap out location for your location
+:: PowerShell -NoProfile -ExecutionPolicy Bypass -File 'C:\location\chrome-clean.ps1'
